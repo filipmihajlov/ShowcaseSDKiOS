@@ -1,0 +1,8 @@
+framework module "CardKitShared" {
+    umbrella header "CardKitShared.h"
+
+    export *
+    module * { export * }
+
+    use Foundation
+}
