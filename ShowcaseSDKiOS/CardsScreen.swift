@@ -115,6 +115,11 @@ struct BusinessCardRow: View {
                     .font(.footnote)
                     .foregroundColor(.blue)
             }
+            
+            if let website = card.website {
+                Text(website)
+                    .font(.headline)
+            }
 
             HStack {
                 Spacer()
